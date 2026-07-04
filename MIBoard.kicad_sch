@@ -15457,7 +15457,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "N2O"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -15501,7 +15501,7 @@
 				)
 			)
 			(symbol "N2O_Sensor_Pin_1_0"
-				(pin unspecified line
+				(pin no_connect line
 					(at 6.35 10.16 0)
 					(length 3.1242)
 					(name "A"
@@ -15519,7 +15519,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 19.05 270)
 					(length 3.1242)
 					(name "TX"
@@ -15537,7 +15537,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 1.27 90)
 					(length 3.1242)
 					(name "RX"
@@ -15555,7 +15555,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 24.13 11.43 180)
 					(length 3.302)
 					(name "VCC"
@@ -15573,7 +15573,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 24.13 8.89 180)
 					(length 3.302)
 					(name "GND"
@@ -22343,6 +22343,26 @@
 		)
 		(uuid "51d8b103-0d08-4123-b553-e4829fce4127")
 	)
+	(label "LFXOUT"
+		(at 232.41 83.185 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "550bcf75-c818-49e6-b09c-e7faf17328ee")
+	)
+	(label "PVCC"
+		(at 101.6 65.405 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55491cf5-53e2-4bed-b861-52fa99dec85d")
+	)
 	(label "SERVO VCC"
 		(at 477.52 250.19 0)
 		(effects
@@ -22355,7 +22375,7 @@
 		(uuid "56076956-cc5d-41d5-999a-41f00ac8f1d4")
 	)
 	(label "N2O_RXD"
-		(at 344.424 186.69 180)
+		(at 344.805 186.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22564,6 +22584,16 @@
 		)
 		(uuid "cbb3a7df-7e31-4fb0-958d-796afd234d79")
 	)
+	(label "LFXIN"
+		(at 234.95 79.375 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d427a1e1-bbfc-406c-af48-005e7eb3071e")
+	)
 	(label "FAN2_PWM"
 		(at 74.295 93.345 0)
 		(effects
@@ -22634,6 +22664,26 @@
 			(justify left bottom)
 		)
 		(uuid "f46c3d45-4eda-40ad-8d93-abd2cec562c1")
+	)
+	(label "AVCC"
+		(at 33.02 53.975 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f88b3ccc-4bbd-4021-9f10-bb46d2554164")
+	)
+	(label "DVCC"
+		(at 86.995 57.785 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff4a80b2-8b19-4861-a048-4f2f518d73f4")
 	)
 	(global_label "N2O_TXD"
 		(shape input)
@@ -36627,7 +36677,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7d8939e4-b837-4c78-839b-a097ad629568")
 		(property "Reference" "U5"
 			(at 170.815 43.815 0)
@@ -36640,7 +36689,7 @@
 			)
 		)
 		(property "Value" "MSP430FR5043IPMR"
-			(at 183.515 163.195 0)
+			(at 125.095 213.995 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52449,8 +52498,9 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "N2O Sensor"
 			(at 302.26 171.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52470,7 +52520,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://dynament.com/wp-content/uploads/2025/07/tds0024.pdf"
 			(at 302.26 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -52481,7 +52531,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dynament infrared sensors operate by using the NDIR principle to monitor the presence of target gas"
 			(at 302.26 171.45 0)
 			(hide yes)
 			(show_name no)

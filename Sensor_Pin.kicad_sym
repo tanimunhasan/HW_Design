@@ -18,7 +18,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "N2O"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -62,7 +62,7 @@
 			)
 		)
 		(symbol "N2O_Sensor_Pin_1_0"
-			(pin unspecified line
+			(pin no_connect line
 				(at 6.35 10.16 0)
 				(length 3.1242)
 				(name "A"
@@ -80,7 +80,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 15.24 19.05 270)
 				(length 3.1242)
 				(name "TX"
@@ -98,7 +98,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 15.24 1.27 90)
 				(length 3.1242)
 				(name "RX"
@@ -116,7 +116,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 24.13 11.43 180)
 				(length 3.302)
 				(name "VCC"
@@ -134,7 +134,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 24.13 8.89 180)
 				(length 3.302)
 				(name "GND"
