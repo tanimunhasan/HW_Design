@@ -16353,7 +16353,7 @@
 		(uuid "979bec53-2c5a-499c-aba1-9d77e587cf07")
 	)
 	(rectangle
-		(start 387.985 22.225)
+		(start 387.985 21.59)
 		(end 574.04 114.935)
 		(stroke
 			(width 0)
@@ -16413,7 +16413,7 @@
 		(uuid "e56f85be-72b8-40de-9880-eec0ca3f9611")
 	)
 	(rectangle
-		(start 22.86 26.67)
+		(start 22.86 22.225)
 		(end 263.525 220.345)
 		(stroke
 			(width 0)
@@ -16718,10 +16718,10 @@
 	)
 	(text "FAN 1 Driver Circuit"
 		(exclude_from_sim no)
-		(at 413.385 26.67 0)
+		(at 420.37 26.035 0)
 		(effects
 			(font
-				(size 3 3)
+				(size 4 4)
 				(thickness 0.8)
 				(bold yes)
 			)
@@ -22213,9 +22213,9 @@
 		(uuid "fff374d6-f7c3-4751-9ae7-97447b9a4e8a")
 	)
 	(image
-		(at 568.325 384.175)
-		(scale 0.515037)
-		(uuid "c30e2e3b-db08-4842-808d-9cca5c356134")
+		(at 564.515 384.175)
+		(scale 0.554293)
+		(uuid "3e3c4042-9adb-4514-884f-ae3eff564142")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAQoAAABuCAYAAADf2V0xAAAAAXNSR0IArs4c6QAAAHhlWElmTU0A"
 			"KgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAA"
 			"AAAAAACQAAAAAQAAAJAAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAAQqgAwAEAAAAAQAAAG4A"
