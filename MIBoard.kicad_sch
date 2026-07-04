@@ -6,6 +6,7 @@
 	(paper "A2")
 	(title_block
 		(title "Sub Intelligent Board for Hood on Water (H 'O W)")
+		(company "Barter For Things Ltd")
 	)
 	(lib_symbols
 		(symbol "AP63301WU-7_new_edit:AP63301WU-7"
@@ -1113,6 +1114,236 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:SM712_SOT23"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SM712_SOT23"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf"
+				(at -3.81 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "transient voltage suppressor thyrector transil"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SM712_SOT23_0_0"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SM712_SOT23_0_1"
+				(polyline
+					(pts
+						(xy -6.35 0) (xy 6.35 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -6.35 1.27) (xy -6.35 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 1.27) (xy -3.81 1.27) (xy -3.81 -1.27) (xy -4.318 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy 6.35 -1.27) (xy 6.35 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 1.27) (xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.302 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SM712_SOT23_1_1"
+				(pin passive line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "common"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EasyEDA_Lib:2N7002DW_C5190214"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2192,290 +2423,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "EasyEDA_Lib:CDSOT23-SM712"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA_Lib:SOT-23_L2.9-W1.3-P1.90-LS2.4-BR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/CDSOT23-SM712/391003.html"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Reverse Stand-Off Voltage (Vrwm):12V；7V Clamping Voltage:26V；14V Peak Pulse Power Dissipation (Ppp):400W Voltage - Breakdown:7.5V；13.3V Reverse Leakage Current (Ir):1uA；20uA Number of Channels:2 Operating Temperature:-55°C~+150°C@(Tj) Operating Temperature:"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "CDSOT23-SM712"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "BOURNS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier Part" "C404012"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part Name" "CDSOT23-SM712"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CDSOT23-SM712_1_0"
-				(polyline
-					(pts
-						(xy -4.064 -1.27) (xy -2.54 -3.81) (xy -2.54 -3.81) (xy -0.762 -1.27) (xy -0.762 -1.27) (xy -4.064 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.064 -4.572) (xy -4.318 -4.572) (xy -4.318 -4.572) (xy -4.318 -4.064) (xy -4.318 -4.064)
-						(xy -0.508 -4.064) (xy -0.508 -4.064) (xy -0.508 -3.556) (xy -0.508 -3.556) (xy -0.762 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.81) (xy -2.54 3.81) (xy -2.54 3.81) (xy 2.54 3.81) (xy 2.54 3.81) (xy 2.54 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 3.302) (xy -0.762 3.302) (xy -0.762 3.302) (xy -0.762 2.794) (xy -0.762 2.794) (xy -4.572 2.794)
-						(xy -4.572 2.794) (xy -4.572 2.286) (xy -4.572 2.286) (xy -4.318 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 0) (xy -2.54 2.54) (xy -2.54 2.54) (xy -4.318 0) (xy -4.318 0) (xy -1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy 2.54 -3.81) (xy 2.54 -3.81) (xy 4.318 -1.27) (xy 4.318 -1.27) (xy 1.016 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -4.572) (xy 0.762 -4.572) (xy 0.762 -4.572) (xy 0.762 -4.064) (xy 0.762 -4.064) (xy 4.572 -4.064)
-						(xy 4.572 -4.064) (xy 4.572 -3.556) (xy 4.572 -3.556) (xy 4.318 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.064 3.302) (xy 4.318 3.302) (xy 4.318 3.302) (xy 4.318 2.794) (xy 4.318 2.794) (xy 0.508 2.794)
-						(xy 0.508 2.794) (xy 0.508 2.286) (xy 0.508 2.286) (xy 0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.064 0) (xy 2.54 2.54) (xy 2.54 2.54) (xy 0.762 0) (xy 0.762 0) (xy 4.064 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 -7.62 90)
-					(length 3.81)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 7.62 270)
-					(length 3.81)
-					(name "3"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.0254 0.0254)
 							)
 						)
 					)
@@ -9121,304 +9068,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_JLCPCB-Capacitors:0603,1nF"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 2.032 1.668 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "1nF"
-				(at 2.032 -0.3782 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 0.8 0.8)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "PCM_JLCPCB:C_0603"
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B102KB8NNNC_C1588.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "50V 1nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C1588"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Stock" "6068974"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Price" "0.006USD"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Process" "SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Minimum Qty" "20"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Attrition Qty" "10"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Class" "Basic Component"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Samsung Electro-Mechanics"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part" "CL10B102KB8NNNC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Voltage Rated" "50V"
-				(at 2.032 -2.0462 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 0.8 0.8)
-					)
-					(justify left)
-				)
-			)
-			(property "Tolerance" "±10%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Capacitance" "1nF"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Temperature Coefficient" "X7R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "0603,1nF_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0.635) (xy 1.27 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -0.635) (xy 1.27 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "0603,1nF_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 3.175)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 3.175)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_JLCPCB-Capacitors:0603,22uF"
 			(pin_numbers
 				(hide yes)
@@ -9678,6 +9327,304 @@
 				)
 			)
 			(symbol "0603,22uF_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.175)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.175)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_JLCPCB-Capacitors:0603,4.7nF"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 2.032 1.668 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "4.7nF"
+				(at 2.032 -0.3782 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:C_0603"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B472K500NT_C53987.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "50V 4.7nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C53987"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Stock" "745383"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Price" "0.006USD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Minimum Qty" "20"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Attrition Qty" "10"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Class" "Basic Component"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part" "0603B472K500NT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage Rated" "50V"
+				(at 2.032 -2.0462 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "±10%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Capacitance" "4.7nF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Temperature Coefficient" "X7R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0603,4.7nF_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy 1.27 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.635) (xy 1.27 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0603,4.7nF_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 3.175)
@@ -16192,6 +16139,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 389.89 285.75)
@@ -17020,6 +17082,12 @@
 		(uuid "896ad017-a1a1-4939-b0f5-1025db4c4851")
 	)
 	(junction
+		(at 276.86 325.755)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cf4c81d-7825-4dc2-ad0c-2da8a6822be3")
+	)
+	(junction
 		(at 203.835 345.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -17128,6 +17196,12 @@
 		(uuid "bea16fa4-1ed0-466f-9fc8-b580ba9efed3")
 	)
 	(junction
+		(at 71.755 314.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf15f9bc-6d64-4042-8900-4b102641e849")
+	)
+	(junction
 		(at 140.335 323.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -17158,6 +17232,18 @@
 		(uuid "cb967179-b2dc-4884-bb15-7a1e049c5939")
 	)
 	(junction
+		(at 302.26 329.565)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccbac71a-2e1b-47b4-93a9-983d9d87eaa3")
+	)
+	(junction
+		(at 470.535 335.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d302d5ac-9321-4a43-be30-754a9d9aa396")
+	)
+	(junction
 		(at 65.405 187.325)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -17186,6 +17272,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7b77369-e940-40aa-ab6e-00babf5f13f8")
+	)
+	(junction
+		(at 116.84 340.995)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbec5fdc-4fad-460d-845e-19264b4247fe")
 	)
 	(junction
 		(at 466.725 328.93)
@@ -17517,6 +17609,16 @@
 	)
 	(wire
 		(pts
+			(xy 523.24 347.98) (xy 523.24 339.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "061dc7a5-d663-4d70-8f18-48d9712b7463")
+	)
+	(wire
+		(pts
 			(xy 441.325 149.86) (xy 451.485 149.86)
 		)
 		(stroke
@@ -17614,6 +17716,16 @@
 			(type default)
 		)
 		(uuid "0a5b1b57-1cee-4fb6-902e-3c56276cc239")
+	)
+	(wire
+		(pts
+			(xy 503.555 347.98) (xy 503.555 340.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad895ab-6bc4-472d-aeee-6877220170ad")
 	)
 	(wire
 		(pts
@@ -18158,6 +18270,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.755 314.96) (xy 71.755 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "289c0660-8286-46b3-ab35-236c1ce515bd")
+	)
+	(wire
+		(pts
 			(xy 30.48 37.465) (xy 30.48 38.735)
 		)
 		(stroke
@@ -18338,6 +18460,16 @@
 		)
 		(uuid "31638841-53c5-45c2-8584-2a37872cc57b")
 	)
+	(wire
+		(pts
+			(xy 521.335 347.98) (xy 523.24 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "317f1b8e-910a-4b43-9b1b-5f55d7f848bf")
+	)
 	(polyline
 		(pts
 			(xy 464.185 107.315) (xy 464.185 80.01)
@@ -18418,6 +18550,16 @@
 			(type default)
 		)
 		(uuid "365add7e-69d2-4689-af4a-0fa8ab607491")
+	)
+	(wire
+		(pts
+			(xy 503.555 340.36) (xy 508.635 340.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "376b46e2-8a58-4379-a11d-f9a0b30ffca1")
 	)
 	(wire
 		(pts
@@ -18551,13 +18693,13 @@
 	)
 	(wire
 		(pts
-			(xy 511.175 353.06) (xy 511.175 354.965)
+			(xy 470.535 335.28) (xy 470.535 337.185)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "425157e9-2387-48e6-9f12-9bf8aba20377")
+		(uuid "4297557b-681b-4dd2-878b-709517da176c")
 	)
 	(wire
 		(pts
@@ -18608,6 +18750,16 @@
 			(type default)
 		)
 		(uuid "45c1c9f3-d132-4258-9b94-82f2715437ce")
+	)
+	(wire
+		(pts
+			(xy 276.86 325.755) (xy 276.86 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "467f4548-3083-4bbd-8e3f-b935014f467f")
 	)
 	(wire
 		(pts
@@ -18719,16 +18871,6 @@
 			(type default)
 		)
 		(uuid "4bab8766-2a11-4eca-9217-4409a9794008")
-	)
-	(wire
-		(pts
-			(xy 307.975 327.66) (xy 313.69 327.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c6a8205-1516-42e6-a030-91fc61504e0f")
 	)
 	(wire
 		(pts
@@ -18982,7 +19124,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 337.82) (xy 116.84 342.9)
+			(xy 116.84 337.82) (xy 116.84 340.995)
 		)
 		(stroke
 			(width 0)
@@ -19344,6 +19486,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 340.995) (xy 116.84 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e2d1893-8a0f-4de9-a674-2022167c873e")
+	)
+	(wire
+		(pts
 			(xy 321.31 186.69) (xy 325.12 186.69)
 		)
 		(stroke
@@ -19411,6 +19563,16 @@
 			(type default)
 		)
 		(uuid "7212bbe5-debb-4ea8-8ec4-102484ef9447")
+	)
+	(wire
+		(pts
+			(xy 512.445 351.79) (xy 512.445 354.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "724a7bfe-3a55-4213-a1fa-2d100fa7653e")
 	)
 	(wire
 		(pts
@@ -20176,7 +20338,7 @@
 	)
 	(wire
 		(pts
-			(xy 513.715 322.58) (xy 513.715 337.82)
+			(xy 513.715 322.58) (xy 513.715 339.725)
 		)
 		(stroke
 			(width 0)
@@ -20628,7 +20790,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 322.58) (xy 276.86 327.66)
+			(xy 276.86 322.58) (xy 276.86 325.755)
 		)
 		(stroke
 			(width 0)
@@ -20678,7 +20840,7 @@
 	)
 	(wire
 		(pts
-			(xy 467.995 335.28) (xy 475.615 335.28)
+			(xy 464.185 335.28) (xy 470.535 335.28)
 		)
 		(stroke
 			(width 0)
@@ -20876,6 +21038,16 @@
 			(type default)
 		)
 		(uuid "c3e0edb9-0cf8-4297-87cd-f8953851c2db")
+	)
+	(wire
+		(pts
+			(xy 523.24 339.725) (xy 513.715 339.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c459edb1-8e78-44d1-ae08-0bd6c5450c5b")
 	)
 	(wire
 		(pts
@@ -21186,16 +21358,6 @@
 			(type default)
 		)
 		(uuid "d24c8526-c50d-4273-93be-f211f09a4f73")
-	)
-	(wire
-		(pts
-			(xy 302.26 327.66) (xy 307.975 327.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2878000-6c7f-4c54-aacf-77bfdaa5457d")
 	)
 	(wire
 		(pts
@@ -21539,6 +21701,16 @@
 	)
 	(wire
 		(pts
+			(xy 470.535 335.28) (xy 475.615 335.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e630c7b4-0657-4e63-8114-846a4b860991")
+	)
+	(wire
+		(pts
 			(xy 443.23 255.27) (xy 438.15 255.27)
 		)
 		(stroke
@@ -21599,7 +21771,7 @@
 	)
 	(wire
 		(pts
-			(xy 508.635 337.82) (xy 508.635 327.66)
+			(xy 508.635 327.66) (xy 508.635 340.36)
 		)
 		(stroke
 			(width 0)
@@ -21769,7 +21941,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 327.66) (xy 302.26 327.66)
+			(xy 292.1 327.66) (xy 313.69 327.66)
 		)
 		(stroke
 			(width 0)
@@ -21889,7 +22061,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.755 313.69) (xy 71.755 317.5)
+			(xy 71.755 313.69) (xy 71.755 314.96)
 		)
 		(stroke
 			(width 0)
@@ -22026,6 +22198,166 @@
 			(type default)
 		)
 		(uuid "fff374d6-f7c3-4751-9ae7-97447b9a4e8a")
+	)
+	(image
+		(at 568.325 384.175)
+		(scale 0.515037)
+		(uuid "c30e2e3b-db08-4842-808d-9cca5c356134")
+		(data "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"
+		)
 	)
 	(label "SDA"
 		(at 337.185 127.635 0)
@@ -22178,18 +22510,6 @@
 			(justify right bottom)
 		)
 		(uuid "56cd5138-39cf-4fa5-9a3b-2c74cf54a414")
-	)
-	(label "+5V_SYS"
-		(at 293.37 327.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "5c3798a2-8e77-4c0d-a8ad-d29ccef9e863")
 	)
 	(label "FAN2_EN"
 		(at 408.305 189.23 0)
@@ -22534,6 +22854,30 @@
 			)
 		)
 	)
+	(global_label "DI{slash}TXD"
+		(shape input)
+		(at 464.185 335.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "568378c9-cc5f-4d35-82d8-918dfdb7f63e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 454.5474 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "R0{slash}RXD"
 		(shape input)
 		(at 101.6 161.925 180)
@@ -22571,30 +22915,6 @@
 		(uuid "920d7772-e107-4cda-807e-b493ea2efcf7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 72.066 122.555 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "DI{slash}TXD"
-		(shape input)
-		(at 467.995 335.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9cbc3679-85a5-4313-b5f6-638edc89c91b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 458.3574 335.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22932,7 +23252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01a58da0-65f0-4c6b-a4b4-0c98acb39bae")
-		(property "Reference" "C13"
+		(property "Reference" "C32"
 			(at 485.14 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23150,7 +23470,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C13")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -23168,7 +23488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03b68940-f740-488b-880f-b20d5fcbc6e1")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR056"
 			(at 440.69 274.955 0)
 			(hide yes)
 			(show_name no)
@@ -23228,7 +23548,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR088")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -23246,7 +23566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "048844ed-6f2c-46c1-837f-93bd336858ee")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR015"
 			(at 78.74 348.615 0)
 			(hide yes)
 			(show_name no)
@@ -23306,7 +23626,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR067")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -23406,7 +23726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "059dcb60-4c15-489d-ac53-58cfcc341e84")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR07"
 			(at 60.325 79.375 0)
 			(hide yes)
 			(show_name no)
@@ -23466,7 +23786,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR04")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -23483,7 +23803,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05d7320f-c93e-4dfc-a47a-89fa488d5a2b")
-		(property "Reference" "U11"
+		(property "Reference" "U1"
 			(at 57.785 317.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23611,7 +23931,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "U11")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -23629,7 +23949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "076a53e0-b579-4a30-9b0e-813a785f91ed")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR051"
 			(at 424.18 147.955 0)
 			(hide yes)
 			(show_name no)
@@ -23689,7 +24009,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR031")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -23707,7 +24027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a424ae0-8d67-44aa-8f54-e5e9cdb1c03b")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR082"
 			(at 524.51 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -23767,7 +24087,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR091")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -23785,7 +24105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b65e8ce-a415-47db-a870-54e6af722745")
-		(property "Reference" "R6"
+		(property "Reference" "R19"
 			(at 439.42 93.3449 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24035,7 +24355,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R6")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -24052,7 +24372,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c5a14c0-aba1-45cc-97c1-7af8c625cd23")
-		(property "Reference" "C27"
+		(property "Reference" "C9"
 			(at 93.98 332.105 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24270,7 +24590,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C27")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -24288,7 +24608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e38caeb-06fc-4591-abd6-d0988025e4dd")
-		(property "Reference" "C33"
+		(property "Reference" "C5"
 			(at 81.28 197.4849 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24506,7 +24826,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C33")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -24523,7 +24843,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ee0c71d-f71f-4cb7-946e-9e4e0e0da56a")
-		(property "Reference" "R31"
+		(property "Reference" "R23"
 			(at 447.675 337.185 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24773,7 +25093,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R31")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -24791,7 +25111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fa0b769-a47c-4a71-a184-36574dca2d65")
-		(property "Reference" "R29"
+		(property "Reference" "R3"
 			(at 67.945 180.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25041,7 +25361,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R29")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -25059,7 +25379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "124a3f09-8f96-445d-9167-e21b8b85cdb9")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR071"
 			(at 500.38 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -25119,7 +25439,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR092")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -25136,7 +25456,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "125290f8-e01d-49c7-99da-c08946e255b5")
-		(property "Reference" "R38"
+		(property "Reference" "R11"
 			(at 328.93 184.785 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25385,7 +25705,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R38")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -25403,7 +25723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12d0ecc4-35f6-4ea5-a1ec-121225901912")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR010"
 			(at 65.405 348.615 0)
 			(hide yes)
 			(show_name no)
@@ -25463,7 +25783,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR069")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -25480,7 +25800,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13572bcf-9c3f-4735-af8e-842ed210532b")
-		(property "Reference" "R37"
+		(property "Reference" "R10"
 			(at 298.45 184.785 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25729,7 +26049,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R37")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -25747,7 +26067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "138d138c-676c-4e18-a5cf-8590fc0145b5")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR081"
 			(at 518.795 109.855 0)
 			(hide yes)
 			(show_name no)
@@ -25807,7 +26127,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR027")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -25824,7 +26144,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "14106a43-3dfc-4e7b-8ed1-d72a4c576f00")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR025"
 			(at 190.5 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -25884,7 +26204,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR080")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -25902,7 +26222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14cee16e-7bb1-4063-9240-12b942c67772")
-		(property "Reference" "U9"
+		(property "Reference" "U7"
 			(at 308.61 123.8249 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25984,7 +26304,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "U9")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -26002,7 +26322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "161c5765-29ab-4e6e-8e37-dbc9b2322c08")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR083"
 			(at 533.4 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -26062,7 +26382,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR030")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -26079,7 +26399,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17d8af15-31d8-402c-a4c9-14f9432e9d6f")
-		(property "Reference" "C24"
+		(property "Reference" "C8"
 			(at 87.63 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26297,7 +26617,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C24")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -26314,7 +26634,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19809eab-6a8e-4d89-bf31-aea8d8ccfc30")
-		(property "Reference" "D5"
+		(property "Reference" "D1"
 			(at 74.93 329.565 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26488,7 +26808,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "D5")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -26506,7 +26826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "198cb07a-232f-4f43-ba21-e65d84aa5640")
-		(property "Reference" "C16"
+		(property "Reference" "C13"
 			(at 163.83 326.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26724,7 +27044,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C16")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -26742,7 +27062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1aadff69-4e78-4bba-be2b-064f6087271e")
-		(property "Reference" "C21"
+		(property "Reference" "C1"
 			(at 43.815 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26960,7 +27280,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C21")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -26978,7 +27298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b980930-40ca-49ba-91a2-977d0fa9858f")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR035"
 			(at 302.26 346.71 0)
 			(hide yes)
 			(show_name no)
@@ -27038,7 +27358,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR014")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -27055,7 +27375,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e0ab169-d258-4884-a3ab-a0bc044163b3")
-		(property "Reference" "R28"
+		(property "Reference" "R2"
 			(at 32.385 257.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27305,7 +27625,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R28")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -27323,7 +27643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20b1e5d3-de52-4129-898c-0f5760b252dc")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR063"
 			(at 475.615 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -27383,7 +27703,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR035")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -27477,7 +27797,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21836b2b-86f7-4c6f-93a2-fbe051747912")
-		(property "Reference" "C36"
+		(property "Reference" "C26"
 			(at 424.18 252.095 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27595,7 +27915,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C36")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -27613,7 +27933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22b553e4-5bc1-4899-8c0a-70b8204dd491")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 152.4 248.2849 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27863,7 +28183,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -27881,7 +28201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23a14bc0-4218-4082-a4a4-888d6119574d")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR013"
 			(at 78.105 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -27941,7 +28261,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR077")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -27958,7 +28278,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24fec799-10be-49cc-b582-f63e9754c31c")
-		(property "Reference" "C12"
+		(property "Reference" "C29"
 			(at 471.17 59.055 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28076,7 +28396,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C12")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -28094,7 +28414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2514248d-a598-4518-847d-099aab41e7d1")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR055"
 			(at 437.515 106.045 0)
 			(hide yes)
 			(show_name no)
@@ -28154,7 +28474,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR022")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -28172,7 +28492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2af96ce4-2f34-4d0f-ba67-9d9116cff00d")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 153.035 258.7624 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28247,7 +28567,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -28265,7 +28585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b97b681-9baa-4e8f-9553-e9deae5f8468")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 426.085 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28515,7 +28835,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -28533,7 +28853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c1ed4a1-acb4-48f1-b942-f712582450c1")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR022"
 			(at 116.84 349.25 0)
 			(hide yes)
 			(show_name no)
@@ -28593,7 +28913,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR061")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -28611,7 +28931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d4d702a-ec10-4c66-a4a2-3945473f4700")
-		(property "Reference" "R16"
+		(property "Reference" "R24"
 			(at 488.95 185.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28860,7 +29180,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R16")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -28878,7 +29198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dea35ef-7f2e-4c57-bfd4-044675ee64fa")
-		(property "Reference" "R19"
+		(property "Reference" "R12"
 			(at 360.045 114.9349 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29128,7 +29448,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R19")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -29146,7 +29466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ee6ef28-85c8-49ec-9e15-389f54935162")
-		(property "Reference" "C37"
+		(property "Reference" "C27"
 			(at 432.435 249.5549 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29364,7 +29684,86 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C37")
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 116.84 340.995 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34911849-fd54-449c-a3dd-242b0e6affb2")
+		(property "Reference" "#FLG02"
+			(at 114.935 340.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 113.665 340.9949 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 340.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 340.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 116.84 340.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b5bf45b-59db-496c-a67a-27dd64bc4233")
+		)
+		(instances
+			(project "MIBoard"
+				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -29382,7 +29781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34a65ff8-ffcc-4825-ab7b-3c499018c412")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR027"
 			(at 203.835 354.965 0)
 			(hide yes)
 			(show_name no)
@@ -29442,7 +29841,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR065")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -29460,7 +29859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34e2f8c5-6d9c-4a41-bbf2-5af25ed3f3d4")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR062"
 			(at 473.075 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -29520,7 +29919,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR093")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -29538,7 +29937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3862c5f0-087a-47cc-b222-6d9fdfba8ecb")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR020"
 			(at 97.79 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -29598,7 +29997,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR056")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -29616,7 +30015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3895b38b-227e-4982-a93a-e59d68773565")
-		(property "Reference" "R27"
+		(property "Reference" "R30"
 			(at 508 259.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29866,7 +30265,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R27")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -29884,7 +30283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39f86a0c-57c8-4275-9b01-c5ff2f7bd6bc")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR068"
 			(at 495.935 136.525 0)
 			(hide yes)
 			(show_name no)
@@ -29944,7 +30343,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR036")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -29961,7 +30360,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b8ab08d-58eb-4d5b-a168-74ce7ec876e3")
-		(property "Reference" "R18"
+		(property "Reference" "R29"
 			(at 501.015 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30211,7 +30610,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R18")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -30229,7 +30628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bca9f0e-93e9-497a-a5b5-e4aa64ffb0e0")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR042"
 			(at 322.58 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -30290,7 +30689,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR071")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -30308,7 +30707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e0ba73f-3aa6-4f8a-b2c0-3df53eb8fe11")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR06"
 			(at 57.15 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -30368,7 +30767,243 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR052")
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Capacitors:0603,4.7nF")
+		(at 476.25 260.985 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e141284-051c-43be-ba85-48cc7f099673")
+		(property "Reference" "C30"
+			(at 478.79 258.4449 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7nF"
+			(at 478.79 260.985 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0603"
+			(at 474.472 260.985 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B472K500NT_C53987.pdf"
+			(at 476.25 260.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 4.7nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 476.25 260.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C53987"
+			(at 476.25 260.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "745383"
+			(at 476.25 260.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.006USD"
+			(at 476.25 260.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 476.25 260.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 476.25 260.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 476.25 260.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 476.25 260.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 476.25 260.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
+			(at 476.25 260.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "0603B472K500NT"
+			(at 476.25 260.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" "50V"
+			(at 478.79 263.525 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 476.25 260.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "4.7nF"
+			(at 476.25 260.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 476.25 260.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1542b0d7-1faf-4ec0-9fb7-61de73c56bca")
+		)
+		(pin "1"
+			(uuid "22bd724f-4b18-42ff-91a8-4506ae9bff2f")
+		)
+		(instances
+			(project "MIBoard"
+				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -30466,7 +31101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41736d18-cfed-425b-9ed3-41d2ae97c041")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR039"
 			(at 320.04 154.305 0)
 			(hide yes)
 			(show_name no)
@@ -30526,7 +31161,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR01")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -30544,7 +31179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42103830-c5af-4a3b-ad92-dd20baa5d795")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR04"
 			(at 46.99 278.765 0)
 			(hide yes)
 			(show_name no)
@@ -30604,7 +31239,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR08")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -30621,7 +31256,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44b3d25a-ffef-4e45-84dd-c3ea315ea99e")
-		(property "Reference" "U3"
+		(property "Reference" "U10"
 			(at 487.9183 313.055 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30714,7 +31349,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "U3")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -30732,7 +31367,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4704f711-9c88-427d-bd1e-92aaa4b84dd1")
-		(property "Reference" "U6"
+		(property "Reference" "U13"
 			(at 539.115 153.6701 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30862,7 +31497,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "U6")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -30880,7 +31515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47e4b89a-548a-409e-a77c-3a30099de8b0")
-		(property "Reference" "TP2"
+		(property "Reference" "TP5"
 			(at 294.64 319.2779 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30941,7 +31576,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "TP2")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -30959,7 +31594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a90eb43-3df5-45f7-97c8-0df485160aa8")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR064"
 			(at 476.25 80.645 0)
 			(hide yes)
 			(show_name no)
@@ -31019,7 +31654,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR025")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -31037,7 +31672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4baf0021-ed6a-4f79-ada1-9077848db583")
-		(property "Reference" "R14"
+		(property "Reference" "R18"
 			(at 438.785 194.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31287,7 +31922,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R14")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -31305,7 +31940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4be02eed-287b-4dcd-a3b3-6e15d212032b")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR076"
 			(at 506.73 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -31365,7 +32000,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR026")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -31382,7 +32017,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c93ef9e-0bf6-4cf6-99ef-3809d54a53c8")
-		(property "Reference" "R8"
+		(property "Reference" "R31"
 			(at 502.92 42.545 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31632,7 +32267,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R8")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -31650,7 +32285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4caddcff-1440-42a3-8677-9ab1242db957")
-		(property "Reference" "C28"
+		(property "Reference" "C12"
 			(at 133.35 312.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31865,7 +32500,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C28")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -31882,7 +32517,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4dd487df-7ff7-48e7-b4aa-9f1227df54f9")
-		(property "Reference" "C25"
+		(property "Reference" "C23"
 			(at 330.835 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32100,7 +32735,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C25")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -32118,7 +32753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fa47e2f-ae77-4130-8fbc-abe8301b9060")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR02"
 			(at 36.83 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -32178,7 +32813,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR09")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -32196,7 +32831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fe0fedd-aad0-4cc5-807c-1fc62ec8dbf1")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR072"
 			(at 505.46 211.455 0)
 			(hide yes)
 			(show_name no)
@@ -32256,243 +32891,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0603,1nF")
-		(at 476.25 260.985 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51c29b90-3117-4612-9ed3-5cd902789a41")
-		(property "Reference" "C38"
-			(at 479.425 258.4449 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1nF"
-			(at 479.425 260.985 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:C_0603"
-			(at 474.472 260.985 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B102KB8NNNC_C1588.pdf"
-			(at 476.25 260.985 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 476.25 260.985 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1588"
-			(at 476.25 260.985 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock" "6068974"
-			(at 476.25 260.985 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.006USD"
-			(at 476.25 260.985 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Process" "SMT"
-			(at 476.25 260.985 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 476.25 260.985 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 476.25 260.985 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 476.25 260.985 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 476.25 260.985 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 476.25 260.985 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" "CL10B102KB8NNNC"
-			(at 476.25 260.985 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rated" "50V"
-			(at 479.425 263.525 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 476.25 260.985 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Capacitance" "1nF"
-			(at 476.25 260.985 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temperature Coefficient" "X7R"
-			(at 476.25 260.985 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c39b7698-b6cf-4573-9db6-8260962a055d")
-		)
-		(pin "1"
-			(uuid "63ec3956-99be-4c58-a8a6-744a9b757f69")
-		)
-		(instances
-			(project "MIBoard"
-				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C38")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -32510,7 +32909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "572b06e9-bf94-4981-937f-72cd3fc2ae8d")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR012"
 			(at 71.755 317.5 0)
 			(hide yes)
 			(show_name no)
@@ -32570,7 +32969,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR062")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -32588,7 +32987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "584051e0-46e6-4d3f-815d-3fe14278d5ce")
-		(property "Reference" "U7"
+		(property "Reference" "U3"
 			(at 112.395 260.9849 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32712,7 +33111,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "U7")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -32730,7 +33129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59459b03-aa3d-43a1-950d-d7d2e56b0d22")
-		(property "Reference" "C32"
+		(property "Reference" "C11"
 			(at 102.87 332.1049 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32948,7 +33347,86 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C32")
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 276.86 325.755 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b560649-5124-438e-9dc9-c2588f7c73fc")
+		(property "Reference" "#FLG03"
+			(at 274.955 325.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 273.685 325.7549 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 325.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 325.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 276.86 325.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f9aa648a-e725-47fa-9e68-440d4194c88b")
+		)
+		(instances
+			(project "MIBoard"
+				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -32965,7 +33443,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5edb36e8-dde6-4b9f-a290-354e77058b2d")
-		(property "Reference" "R39"
+		(property "Reference" "R26"
 			(at 494.665 255.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33214,7 +33692,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R39")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -33231,7 +33709,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63e66a49-0b65-4406-9d9e-a0782c64bf99")
-		(property "Reference" "TP3"
+		(property "Reference" "TP6"
 			(at 314.96 340.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33290,7 +33768,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "TP3")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -33308,7 +33786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64ee91d8-a391-4bd1-b73c-7a79b742bee8")
-		(property "Reference" "TP7"
+		(property "Reference" "TP1"
 			(at 36.195 36.1949 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33369,7 +33847,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "TP7")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -33386,7 +33864,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65e48cf5-f1ac-412e-a0e1-ce735386d797")
-		(property "Reference" "C22"
+		(property "Reference" "C6"
 			(at 81.28 67.945 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33605,7 +34083,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C22")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -33623,7 +34101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6702f17f-7df3-4b33-bb4d-956628bd70d0")
-		(property "Reference" "R32"
+		(property "Reference" "R22"
 			(at 442.595 263.5249 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33873,7 +34351,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R32")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -33891,7 +34369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68b57146-5b67-4805-ad9c-8062490bd36b")
-		(property "Reference" "TP1"
+		(property "Reference" "TP7"
 			(at 347.218 317.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33950,7 +34428,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "TP1")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -33967,7 +34445,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ae48d3f-3c4f-4b83-9cb1-2aa09b6318f1")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR08"
 			(at 65.405 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -34027,7 +34505,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR045")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -34045,7 +34523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d642f44-89bf-4633-a9b3-20635461817e")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR048"
 			(at 359.41 322.58 0)
 			(hide yes)
 			(show_name no)
@@ -34105,7 +34583,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR016")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -34113,7 +34591,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 511.175 354.965 0)
+		(at 512.445 354.965 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34123,8 +34601,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f0d1d62-923a-4e04-b2a0-1eb8eb687c3e")
-		(property "Reference" "#PWR013"
-			(at 511.175 361.315 0)
+		(property "Reference" "#PWR077"
+			(at 512.445 361.315 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34135,7 +34613,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 511.175 359.41 0)
+			(at 512.445 359.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34145,7 +34623,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 511.175 354.965 0)
+			(at 512.445 354.965 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34156,7 +34634,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 511.175 354.965 0)
+			(at 512.445 354.965 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34167,7 +34645,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 511.175 354.965 0)
+			(at 512.445 354.965 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34183,7 +34661,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR013")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -34201,7 +34679,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71695fb2-083b-452b-9338-ff77ea436466")
-		(property "Reference" "Q2"
+		(property "Reference" "Q3"
 			(at 455.295 62.8651 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34477,7 +34955,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "Q2")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -34495,7 +34973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71cdab63-6fe7-44d8-b1da-88d0b8fd0ddf")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR024"
 			(at 183.515 355.6 0)
 			(hide yes)
 			(show_name no)
@@ -34555,7 +35033,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR064")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -34573,7 +35051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "727b198c-6936-4d38-8b16-55173a4caf3a")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR057"
 			(at 445.135 351.155 0)
 			(hide yes)
 			(show_name no)
@@ -34633,7 +35111,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR020")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -34651,7 +35129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "727b2af9-956d-4f14-b56f-e5d641b47944")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR033"
 			(at 276.86 326.39 0)
 			(hide yes)
 			(show_name no)
@@ -34711,7 +35189,90 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR046")
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SM712_SOT23")
+		(at 512.445 347.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "730fdc10-a5ca-4536-80ef-743e0db37063")
+		(property "Reference" "D8"
+			(at 512.445 342.265 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM712_SOT23"
+			(at 512.445 344.805 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 512.445 356.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf"
+			(at 508.635 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23"
+			(at 512.445 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "db2ace33-5f2c-427b-bb17-a1dd715db3b4")
+		)
+		(pin "1"
+			(uuid "564bb59a-9ac5-4d43-b3f5-4fe6db6c8833")
+		)
+		(pin "3"
+			(uuid "78834471-4a28-43a9-99f6-8c49da6c5abf")
+		)
+		(instances
+			(project "MIBoard"
+				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -34729,7 +35290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7316f228-e371-4384-bff0-6b6ee6eb38e4")
-		(property "Reference" "R10"
+		(property "Reference" "R25"
 			(at 489.585 84.455 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34978,7 +35539,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R10")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -34995,7 +35556,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73a2d127-8e64-424e-af31-227acc3eb1b4")
-		(property "Reference" "L2"
+		(property "Reference" "L1"
 			(at 150.495 326.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35123,145 +35684,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA_Lib:CDSOT23-SM712")
-		(at 511.175 345.44 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "74ac9a6a-023a-4ca1-88bd-19a5a6ab5f58")
-		(property "Reference" "D1"
-			(at 517.525 345.0589 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SM712"
-			(at 520.065 348.615 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EasyEDA_Lib:SOT-23_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 511.175 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CDSOT23-SM712/391003.html"
-			(at 511.175 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Reverse Stand-Off Voltage (Vrwm):12V；7V Clamping Voltage:26V；14V Peak Pulse Power Dissipation (Ppp):400W Voltage - Breakdown:7.5V；13.3V Reverse Leakage Current (Ir):1uA；20uA Number of Channels:2 Operating Temperature:-55°C~+150°C@(Tj) Operating Temperature:"
-			(at 511.175 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "CDSOT23-SM712"
-			(at 511.175 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "BOURNS"
-			(at 511.175 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" "C404012"
-			(at 511.175 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 511.175 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Name" "CDSOT23-SM712"
-			(at 511.175 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "31c3b204-a792-4f94-a1b0-c735c8b586a8")
-		)
-		(pin "3"
-			(uuid "75e17324-3962-443c-ae82-3496c3d61f33")
-		)
-		(pin "1"
-			(uuid "7896ba6e-d09d-4a72-82b4-5f88a5ccf16e")
-		)
-		(instances
-			(project "MIBoard"
-				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "D1")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -35279,7 +35702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76e35b4f-9939-4b81-9631-e558300986a0")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR074"
 			(at 506.095 142.875 0)
 			(hide yes)
 			(show_name no)
@@ -35339,7 +35762,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR038")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -35357,7 +35780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7750a9d1-c682-4cfe-bfcd-424cba3c7a1a")
-		(property "Reference" "U2"
+		(property "Reference" "U8"
 			(at 321.31 320.675 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35423,7 +35846,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "U2")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -35441,7 +35864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78e42431-eba6-4436-8163-e70758a4b58a")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR036"
 			(at 307.975 346.71 0)
 			(hide yes)
 			(show_name no)
@@ -35501,7 +35924,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR015")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -35518,7 +35941,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "797abce3-f877-4f95-889e-2d8535bb3289")
-		(property "Reference" "C1"
+		(property "Reference" "C19"
 			(at 298.45 333.375 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35635,7 +36058,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C1")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -35888,7 +36311,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a9a16bc-9f86-47ea-9f91-f86e908f19ce")
-		(property "Reference" "Q3"
+		(property "Reference" "Q5"
 			(at 523.24 89.0269 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36017,7 +36440,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "Q3")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -36117,7 +36540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b5cae57-78f4-4e56-b71f-124664dde961")
-		(property "Reference" "C29"
+		(property "Reference" "C18"
 			(at 305.435 103.5049 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36335,7 +36758,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C29")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -36353,7 +36776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d8939e4-b837-4c78-839b-a097ad629568")
-		(property "Reference" "U1"
+		(property "Reference" "U5"
 			(at 170.815 43.815 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36373,7 +36796,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL"
+		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
 			(at 183.515 163.195 0)
 			(hide yes)
 			(show_name no)
@@ -36656,7 +37079,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "U1")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -36674,7 +37097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f91582b-1ff9-471a-ae6f-f9165ec8f145")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR028"
 			(at 219.075 243.205 0)
 			(hide yes)
 			(show_name no)
@@ -36734,7 +37157,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR044")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -37224,7 +37647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "830acc6b-5dfa-4cb4-9979-4cd2c7cdc99d")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR079"
 			(at 513.08 41.275 0)
 			(hide yes)
 			(show_name no)
@@ -37284,7 +37707,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR050")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -37302,7 +37725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83e5f0ae-fc44-46c9-a141-e360ef1c3a71")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR01"
 			(at 30.48 38.735 0)
 			(hide yes)
 			(show_name no)
@@ -37362,7 +37785,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR051")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -37380,7 +37803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "860d0263-ec90-4463-88e9-139494f3e5dc")
-		(property "Reference" "R17"
+		(property "Reference" "R27"
 			(at 507.365 197.4849 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37630,7 +38053,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R17")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -37648,7 +38071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86c72765-f6f2-4d18-80b8-05869dc1c9bf")
-		(property "Reference" "C6"
+		(property "Reference" "C36"
 			(at 504.19 300.3549 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37866,7 +38289,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C6")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -37884,7 +38307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88d510d3-4a3e-463c-ab02-75489e2d71b6")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR021"
 			(at 100.33 348.615 0)
 			(hide yes)
 			(show_name no)
@@ -37944,7 +38367,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR066")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -37962,7 +38385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8900f2b4-2db7-429e-bb69-d34f59f9cbfc")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR058"
 			(at 451.485 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -38022,7 +38445,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR033")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -38040,7 +38463,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "892c73db-dfba-4066-bcb1-83c35ebe194f")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR050"
 			(at 421.64 264.795 0)
 			(hide yes)
 			(show_name no)
@@ -38100,7 +38523,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR086")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -38118,7 +38541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a82004b-4352-4e9b-90a8-7ce3e6ccd156")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR018"
 			(at 85.09 348.615 0)
 			(hide yes)
 			(show_name no)
@@ -38178,7 +38601,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR074")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -38196,7 +38619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b1d0b60-ec7e-498e-9de3-9c1f274b6ef3")
-		(property "Reference" "R7"
+		(property "Reference" "R28"
 			(at 508 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38446,7 +38869,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R7")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -38464,7 +38887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c6cfab6-e61d-48fa-9caa-850c8bf007bd")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR067"
 			(at 491.49 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -38524,7 +38947,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR089")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -38541,7 +38964,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c81d670-4c66-4109-a1f5-3d34521dd8c9")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR045"
 			(at 337.82 117.475 0)
 			(hide yes)
 			(show_name no)
@@ -38601,7 +39024,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR02")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -38619,7 +39042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c953072-3690-4d03-b738-7c7e2e78151b")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 81.915 46.3549 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38869,7 +39292,85 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R2")
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 470.535 337.185 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91d908af-dd67-4dbe-b83e-218aa7b597a0")
+		(property "Reference" "#FLG05"
+			(at 470.535 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 470.535 341.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 470.535 337.185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 470.535 337.185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 470.535 337.185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd0a5296-dffc-4cf9-8dca-1cb352293456")
+		)
+		(instances
+			(project "MIBoard"
+				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -38887,7 +39388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93352316-fd79-4365-98c0-2446e29e31b3")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR044"
 			(at 334.01 346.71 0)
 			(hide yes)
 			(show_name no)
@@ -38947,7 +39448,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR017")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -38965,7 +39466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "937ccc03-f5fb-4fe7-9f30-d9128cff2cdd")
-		(property "Reference" "TP4"
+		(property "Reference" "TP2"
 			(at 77.47 316.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39027,7 +39528,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "TP4")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -39045,7 +39546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93b90dd1-df48-4792-8082-c70468051fd2")
-		(property "Reference" "R3"
+		(property "Reference" "R36"
 			(at 537.21 325.7549 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39295,7 +39796,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R3")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -39312,7 +39813,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93c169df-1586-4430-ba53-2ed0ef84957b")
-		(property "Reference" "C14"
+		(property "Reference" "C28"
 			(at 471.17 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39430,7 +39931,86 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C14")
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 302.26 329.565 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "945134b7-8a08-4a13-8c51-fd499588d084")
+		(property "Reference" "#FLG04"
+			(at 300.355 329.565 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 299.085 329.5649 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 302.26 329.565 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 302.26 329.565 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 302.26 329.565 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "74f41894-45cc-4976-bc70-e6c2eb05b390")
+		)
+		(instances
+			(project "MIBoard"
+				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -39447,7 +40027,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "94ef9257-59e1-4968-9e2b-0842937b2a1a")
-		(property "Reference" "U14"
+		(property "Reference" "U9"
 			(at 457.2 240.665 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39585,7 +40165,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "U14")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -39603,7 +40183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96a0e8c1-bd70-4ee3-848f-d53a30f997db")
-		(property "Reference" "Q5"
+		(property "Reference" "Q2"
 			(at 454.66 187.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39879,7 +40459,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "Q5")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -39897,7 +40477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "973e6e7c-beef-496a-8e7b-abbf7d4975ad")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR029"
 			(at 219.075 283.21 0)
 			(hide yes)
 			(show_name no)
@@ -39957,7 +40537,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR082")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -39974,7 +40554,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98646a78-04c3-4b57-b6bb-ee9478724aaf")
-		(property "Reference" "R36"
+		(property "Reference" "R34"
 			(at 520.065 155.575 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40223,7 +40803,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R36")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -40241,7 +40821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "995f94e1-fc1a-41f3-ba2e-88a5bb21a379")
-		(property "Reference" "R26"
+		(property "Reference" "R9"
 			(at 220.98 257.1749 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40491,7 +41071,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R26")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -40508,7 +41088,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9982eda0-a5b4-4a42-9969-9501995cdb27")
-		(property "Reference" "C39"
+		(property "Reference" "C35"
 			(at 495.935 259.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40594,7 +41174,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C39")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -40611,7 +41191,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "999aa76f-ef6d-4ca6-872d-678a1ceb20a5")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR017"
 			(at 83.82 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -40671,7 +41251,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR055")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -40689,7 +41269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bcc00d7-267b-4cf9-bd18-c2d124df1bc5")
-		(property "Reference" "D3"
+		(property "Reference" "D5"
 			(at 437.515 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40861,7 +41441,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "D3")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -40879,7 +41459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d214bc7-8741-4782-889c-16175a1b6573")
-		(property "Reference" "C31"
+		(property "Reference" "C15"
 			(at 216.535 328.9362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40901,7 +41481,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4ms_Capacitor:C_0805"
+		(property "Footprint" "EasyEDA_Lib:C0805"
 			(at 214.3252 334.01 0)
 			(hide yes)
 			(show_name no)
@@ -41001,7 +41581,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C31")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -41019,7 +41599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d3cab25-ccfa-4c17-84bb-1e0c4ac41c31")
-		(property "Reference" "D6"
+		(property "Reference" "D3"
 			(at 193.675 268.9224 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41094,7 +41674,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "D6")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -41112,7 +41692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d7965cb-5491-4c83-9bc2-8aa9113b40cd")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR023"
 			(at 149.86 272.415 0)
 			(hide yes)
 			(show_name no)
@@ -41172,7 +41752,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR073")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -41190,7 +41770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e25fe24-b8cb-484e-bb07-74e8f87f7032")
-		(property "Reference" "R25"
+		(property "Reference" "R8"
 			(at 192.405 258.4449 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41440,7 +42020,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R25")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -41457,7 +42037,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f6f16da-97f2-40e9-ac61-d418abdc58d6")
-		(property "Reference" "R22"
+		(property "Reference" "R7"
 			(at 186.055 342.8999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41575,7 +42155,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R22")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -41593,7 +42173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f9864aa-d240-4ad8-9d79-f71c2ac9c00b")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR031"
 			(at 241.3 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -41653,7 +42233,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR06")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -41671,7 +42251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0144e16-14c4-4457-b5d9-ac230c26354d")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR09"
 			(at 65.405 216.535 0)
 			(hide yes)
 			(show_name no)
@@ -41731,7 +42311,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR047")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -41749,7 +42329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1610d15-4964-480e-8490-d2461840d788")
-		(property "Reference" "C23"
+		(property "Reference" "C10"
 			(at 100.965 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41967,7 +42547,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C23")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -41985,7 +42565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a47b4876-60ab-4ea9-ae10-602c4599a44f")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR016"
 			(at 79.375 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -42045,7 +42625,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR054")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -42062,7 +42642,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6147782-ef08-4eca-a9c0-11efa7e43bbd")
-		(property "Reference" "U12"
+		(property "Reference" "U2"
 			(at 67.945 199.3899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42180,7 +42760,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "U12")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -42198,7 +42778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6c3ec0d-7f38-4980-b07d-c958b1a92728")
-		(property "Reference" "R34"
+		(property "Reference" "R21"
 			(at 443.23 74.2949 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42448,7 +43028,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R34")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -42612,7 +43192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abe3bb07-edc0-45d4-87d3-0231058f9f13")
-		(property "Reference" "D2"
+		(property "Reference" "D6"
 			(at 438.15 42.545 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42784,7 +43364,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "D2")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -42802,7 +43382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac2e5029-85a5-433f-b607-1548cd89d8b8")
-		(property "Reference" "C30"
+		(property "Reference" "C14"
 			(at 199.39 329.5712 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42824,7 +43404,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4ms_Capacitor:C_0805"
+		(property "Footprint" "EasyEDA_Lib:C0805"
 			(at 197.1802 334.645 0)
 			(hide yes)
 			(show_name no)
@@ -42924,7 +43504,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C30")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -42942,7 +43522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac8bc4ac-0933-493b-b444-b96ea4118879")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR065"
 			(at 485.775 297.18 0)
 			(hide yes)
 			(show_name no)
@@ -43002,7 +43582,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR010")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -43020,7 +43600,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b038abc4-3378-4b2f-9b1e-81bb35e72bd6")
-		(property "Reference" "Q4"
+		(property "Reference" "Q1"
 			(at 454.66 163.8301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43296,7 +43876,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "Q4")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -43313,7 +43893,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b205c799-ddb7-4dfb-9f5e-ab4a6bb00ff6")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 40.005 312.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43533,7 +44113,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -43551,7 +44131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b520091c-8159-415e-a2ae-f88837f23eeb")
-		(property "Reference" "R15"
+		(property "Reference" "R20"
 			(at 442.595 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43801,7 +44381,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R15")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -43819,7 +44399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b667ae87-c9be-4d4d-bc61-d2ad7a140299")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR019"
 			(at 92.71 349.25 0)
 			(hide yes)
 			(show_name no)
@@ -43879,7 +44459,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR063")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -43897,7 +44477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6ac6a14-547b-44f4-a04f-3e3593cf61fc")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR054"
 			(at 436.88 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -43957,7 +44537,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR032")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -43974,7 +44554,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6d43337-da53-400f-b6db-83d7be466126")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR037"
 			(at 311.15 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -44035,7 +44615,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR072")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -44052,7 +44632,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b918735a-5e62-4570-b4c5-40c62ae67b1b")
-		(property "Reference" "C40"
+		(property "Reference" "C33"
 			(at 484.505 259.715 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44270,7 +44850,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C40")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -44288,7 +44868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba7575ba-9eeb-431c-9b4b-811031a7e1f5")
-		(property "Reference" "C11"
+		(property "Reference" "C22"
 			(at 337.185 334.0162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44310,7 +44890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4ms_Capacitor:C_0805"
+		(property "Footprint" "EasyEDA_Lib:C0805"
 			(at 334.9752 339.09 0)
 			(hide yes)
 			(show_name no)
@@ -44410,7 +44990,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C11")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -44796,7 +45376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "beb2eea5-c486-4b37-ab7f-0d982bcb6966")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR080"
 			(at 518.16 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -44856,7 +45436,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR039")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -44874,7 +45454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfc6e9fd-4ca8-4224-8d6b-6b7b27bc3195")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR070"
 			(at 496.57 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -44934,7 +45514,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR029")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -44952,7 +45532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0a4e228-9263-4d8f-88d2-2bf35f47fecd")
-		(property "Reference" "Q1"
+		(property "Reference" "Q4"
 			(at 455.295 86.9949 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45228,7 +45808,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "Q1")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -45246,7 +45826,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0e77c57-9d9a-4366-90e4-ab4249f47e7c")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 54.61 250.825 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45320,7 +45900,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -45338,7 +45918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c20c060b-2f46-4983-a002-e45a9df840c5")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR030"
 			(at 233.045 327.66 0)
 			(hide yes)
 			(show_name no)
@@ -45398,7 +45978,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR068")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -45415,7 +45995,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c36bb0f2-279e-4b88-abcd-1968333765cf")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR034"
 			(at 302.26 117.475 0)
 			(hide yes)
 			(show_name no)
@@ -45475,7 +46055,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR043")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -45493,7 +46073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3a06b1b-6ced-45c7-9052-084396eaed11")
-		(property "Reference" "C19"
+		(property "Reference" "C21"
 			(at 334.01 196.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45711,7 +46291,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C19")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -45729,7 +46309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4736581-6086-4462-a77a-055bfd04900d")
-		(property "Reference" "C7"
+		(property "Reference" "C34"
 			(at 494.03 300.3549 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45947,7 +46527,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C7")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -45965,7 +46545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccb0c184-c56d-455b-8521-2b1584541751")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR032"
 			(at 245.11 100.965 0)
 			(hide yes)
 			(show_name no)
@@ -46025,7 +46605,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR07")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -46043,7 +46623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd1b0474-c853-4a9c-9acd-f1c6e0156016")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR049"
 			(at 421.64 245.745 0)
 			(hide yes)
 			(show_name no)
@@ -46103,7 +46683,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR085")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -46121,7 +46701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdcc0801-5b15-455b-a276-f21e673af912")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR073"
 			(at 506.095 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -46181,7 +46761,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR028")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -46198,7 +46778,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cfb74694-ffab-46e9-bd56-5744c73f4841")
-		(property "Reference" "R20"
+		(property "Reference" "R6"
 			(at 186.055 330.1999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46316,7 +46896,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R20")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -46334,7 +46914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0075778-54da-48b1-a02b-07548363744d")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR075"
 			(at 506.095 272.415 0)
 			(hide yes)
 			(show_name no)
@@ -46394,7 +46974,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR090")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -46411,7 +46991,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "d14493d8-422b-4efc-80f6-756dd284330f")
-		(property "Reference" "R30"
+		(property "Reference" "R32"
 			(at 513.715 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46661,7 +47241,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R30")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -46678,7 +47258,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d22a92d2-e738-4adc-89f5-8b6271a6120c")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR038"
 			(at 317.5 102.235 0)
 			(hide yes)
 			(show_name no)
@@ -46738,7 +47318,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR042")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -46756,7 +47336,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d32ee962-0e31-4070-a5ca-44b9de856fe7")
-		(property "Reference" "U5"
+		(property "Reference" "U12"
 			(at 537.21 52.7051 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46886,7 +47466,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "U5")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -46904,7 +47484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d372b573-dbe1-4441-bc42-1a9b6bc242cd")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR060"
 			(at 452.12 46.355 0)
 			(hide yes)
 			(show_name no)
@@ -46964,7 +47544,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR024")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -46982,7 +47562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4ab978e-31b9-44b1-996e-afbb45cec311")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR014"
 			(at 78.74 278.765 0)
 			(hide yes)
 			(show_name no)
@@ -47042,7 +47622,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR049")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -47060,7 +47640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7be7252-fcbf-4d42-be74-60217826c761")
-		(property "Reference" "U15"
+		(property "Reference" "U11"
 			(at 520.065 250.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47187,7 +47767,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "U15")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -47205,7 +47785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd1112e5-f0ae-4974-bb54-89f007a7397f")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR052"
 			(at 424.815 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -47265,7 +47845,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR023")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -47283,7 +47863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd275861-f525-4fa0-9190-76cf396d5cfe")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR053"
 			(at 429.895 266.065 0)
 			(hide yes)
 			(show_name no)
@@ -47343,7 +47923,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR087")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -47361,7 +47941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd31435d-353d-4727-9a25-d43dffb41872")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR03"
 			(at 40.64 79.375 0)
 			(hide yes)
 			(show_name no)
@@ -47421,7 +48001,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR053")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -47438,7 +48018,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df422bd5-f385-4e9f-a64e-df007d01a842")
-		(property "Reference" "TP6"
+		(property "Reference" "TP4"
 			(at 219.71 318.135 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47500,7 +48080,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "TP6")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -47517,7 +48097,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e02baf62-000f-4297-a85b-59195ed131f4")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR046"
 			(at 344.17 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -47578,7 +48158,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR076")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -47596,7 +48176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4087c98-b6c2-4ae4-8258-bcd2d6d7a625")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR011"
 			(at 69.85 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -47656,7 +48236,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR05")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -47674,7 +48254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e58ba5fb-f41f-4fb5-bd3e-465cdd442eb0")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR084"
 			(at 535.305 174.625 0)
 			(hide yes)
 			(show_name no)
@@ -47734,7 +48314,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR040")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -47752,7 +48332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6dbdd23-71ea-4c77-8af2-581fb4f0a807")
-		(property "Reference" "TP5"
+		(property "Reference" "TP3"
 			(at 122.555 336.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47814,7 +48394,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "TP5")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -47832,7 +48412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e838e7e8-2d91-4b87-82d1-b4869d57d909")
-		(property "Reference" "R13"
+		(property "Reference" "R15"
 			(at 424.18 185.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48081,7 +48661,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R13")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -48099,7 +48679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9305bcb-da15-4a61-91ea-b9e206712d53")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR026"
 			(at 190.5 283.21 0)
 			(hide yes)
 			(show_name no)
@@ -48159,7 +48739,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR079")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -48176,7 +48756,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea76e53d-b710-47ab-99cb-328a388fdeb0")
-		(property "Reference" "C18"
+		(property "Reference" "C7"
 			(at 85.725 332.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48294,7 +48874,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C18")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -48312,7 +48892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea970f5c-bb80-4082-b584-b7d9e7c6e994")
-		(property "Reference" "C10"
+		(property "Reference" "C25"
 			(at 352.425 333.3749 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48530,7 +49110,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C10")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -48548,7 +49128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebbd4a19-6fd9-4236-a355-221868bf26e2")
-		(property "Reference" "D7"
+		(property "Reference" "D4"
 			(at 222.885 267.6524 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48623,7 +49203,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "D7")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -48641,7 +49221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebd09b73-6bd6-4172-8a8c-de93591a26f5")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR066"
 			(at 485.775 354.33 0)
 			(hide yes)
 			(show_name no)
@@ -48701,7 +49281,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR011")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -48987,7 +49567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed9a3fd8-2fb9-4f5c-9ad5-7bef9a0e303b")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR069"
 			(at 495.935 314.96 0)
 			(hide yes)
 			(show_name no)
@@ -49047,7 +49627,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR012")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -49065,7 +49645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef809c3e-3c17-42f6-9f48-519c83200625")
-		(property "Reference" "R5"
+		(property "Reference" "R17"
 			(at 424.815 84.455 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49314,7 +49894,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R5")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -49331,7 +49911,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "efacebf1-9e45-4c2a-8f0a-b9993ea90c1f")
-		(property "Reference" "R11"
+		(property "Reference" "R33"
 			(at 514.985 42.545 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49581,7 +50161,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R11")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -49598,7 +50178,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "effe2629-ef62-42cd-bbd7-379a6f433343")
-		(property "Reference" "Q3"
+		(property "Reference" "Q5"
 			(at 523.24 189.9919 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49727,7 +50307,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "Q3")
+					(reference "Q5")
 					(unit 2)
 				)
 			)
@@ -49744,7 +50324,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0262d52-921b-4bda-ba06-00462b50deaa")
-		(property "Reference" "C5"
+		(property "Reference" "C16"
 			(at 234.315 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49962,7 +50542,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C5")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -49980,7 +50560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f16c3934-5f8b-4af3-8293-2fe480192c01")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR05"
 			(at 51.435 79.375 0)
 			(hide yes)
 			(show_name no)
@@ -50040,7 +50620,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR03")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -50057,7 +50637,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1f46035-a5c5-446f-9ccc-581109fe9821")
-		(property "Reference" "C8"
+		(property "Reference" "C17"
 			(at 253.365 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50275,7 +50855,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C8")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -50293,7 +50873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f312d675-f749-434a-bb3d-3617a7da109f")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR061"
 			(at 452.12 104.775 0)
 			(hide yes)
 			(show_name no)
@@ -50353,7 +50933,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR021")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -50371,7 +50951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f512f3a2-387d-4fb9-bf8b-3a09e22f1254")
-		(property "Reference" "C15"
+		(property "Reference" "C31"
 			(at 484.505 155.5749 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50589,7 +51169,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C15")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -50607,7 +51187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5ef97c9-5691-4758-98f9-2a1e5df71c76")
-		(property "Reference" "C20"
+		(property "Reference" "C24"
 			(at 347.345 196.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50825,7 +51405,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C20")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -50843,7 +51423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6c8aaf6-7ead-4b2a-881a-fb61af8ce955")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR059"
 			(at 451.485 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -50903,7 +51483,86 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR034")
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 71.755 314.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f74bd9a9-c14b-4fb2-95ab-32fa856e928e")
+		(property "Reference" "#FLG01"
+			(at 69.85 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 68.58 314.9599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.755 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.755 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 71.755 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2b65887-157d-4a7b-a9da-f14fa97a35f3")
+		)
+		(instances
+			(project "MIBoard"
+				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -50921,7 +51580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7f6dbf7-b9d8-4872-a655-441a258f8f30")
-		(property "Reference" "R24"
+		(property "Reference" "R13"
 			(at 369.57 114.9349 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51171,7 +51830,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R24")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -51189,7 +51848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc983f84-7aa3-4046-9c0f-d84cd83fa07c")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR040"
 			(at 321.31 346.075 0)
 			(hide yes)
 			(show_name no)
@@ -51249,7 +51908,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR019")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -51267,7 +51926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd3af59b-996b-48bd-a61b-c33cd436c2af")
-		(property "Reference" "R9"
+		(property "Reference" "R16"
 			(at 426.72 51.4349 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51517,7 +52176,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "R9")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -51535,7 +52194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe873cd3-d1e0-4a56-ac86-4ae37fd11be9")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR047"
 			(at 349.25 347.345 0)
 			(hide yes)
 			(show_name no)
@@ -51595,7 +52254,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR018")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -51613,7 +52272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe90cae6-e962-44db-a27c-1e08c40a07f6")
-		(property "Reference" "C9"
+		(property "Reference" "C20"
 			(at 311.15 330.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51831,7 +52490,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "C9")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -51848,7 +52507,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff415ec9-823e-4027-80e4-c946e319e29e")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR043"
 			(at 331.47 210.185 0)
 			(hide yes)
 			(show_name no)
@@ -51909,7 +52568,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "#PWR075")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -51927,7 +52586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffc89e7f-d485-4de1-9f9c-991747849f2d")
-		(property "Reference" "U10"
+		(property "Reference" "U6"
 			(at 321.31 182.8098 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51998,7 +52657,7 @@
 		(instances
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "U10")
+					(reference "U6")
 					(unit 1)
 				)
 			)
