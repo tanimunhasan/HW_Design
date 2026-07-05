@@ -1940,6 +1940,243 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EasyEDA_Lib:532610471_C696092"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA_Lib:CONN-SMD_4P-P1.25_53261-0471"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/532/53261/532610471_sd.pdf?inline\\"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Pins Structure:1x4P Pitch:1.25mm Mounting Type:Surface Mount, Right Angle Reference Series:PicoBlade(MX 1.25) Number of Pins:4P Number of Rows:1 Number of PINs Per Row:4 Row Spacing:- Current Rating:1A Contact Material:Phosphor Bronze Contact Plating:Tin"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "532610471"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "MOLEX"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C696092"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Name" "1x4P 间距:1.25mm 卧贴 系列:PicoBlade(MX 1.25)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "532610471_C696092_1_0"
+				(rectangle
+					(start -2.54 6.35)
+					(end 2.54 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 -8.89 90)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 8.89 270)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EasyEDA_Lib:59170-1-S-00-D"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4358,254 +4595,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "EasyEDA_Lib:ZX-SH1.0-4PWT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA_Lib:CONN-SMD_4P-P1.00_MEGASTAR_ZX-SH1.0-4PWT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/ZX-SH1.0-4PWT/8430315.html"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Pins Structure:1x4P Pitch:1mm Mounting Type:Surface Mount, Right Angle Reference Series:SH Number of Pins:4P Number of Rows:1 Number of PINs Per Row:4 Row Spacing:- Current Rating:1A Contact Material:Brass Contact Plating:Tin Operating Temperature:-40°C~+8"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "ZX-SH1.0-4PWT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Megastar(兆星)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier Part" "C7430446"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part Name" "1x4P 间距:1mm 卧贴 系列:SH"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ZX-SH1.0-4PWT_1_0"
-				(rectangle
-					(start -2.54 -5.08)
-					(end 5.08 7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 6.35)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 5.08 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 2.54 -7.62 90)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 2.54 10.16 270)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -16840,12 +16829,6 @@
 		(uuid "f62b3919-c5b5-4ec7-88ac-efd3799f645a")
 	)
 	(junction
-		(at 535.305 165.735)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "02a07061-3b19-4178-96d6-db6229486394")
-	)
-	(junction
 		(at 239.395 83.185)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16922,6 +16905,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "204d6b85-7733-4eb1-b203-9592f37c51b2")
+	)
+	(junction
+		(at 533.4 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21bb1112-74d3-48a9-b328-482ba5149737")
 	)
 	(junction
 		(at 321.31 338.455)
@@ -17356,6 +17345,12 @@
 		(uuid "d33346f4-7bf0-4da0-8468-e32da75dc8cf")
 	)
 	(junction
+		(at 535.305 165.735)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3975f8b-725f-44e1-9173-7aaf3c64f683")
+	)
+	(junction
 		(at 513.08 56.515)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -17462,12 +17457,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee5c3e40-8da4-4d0d-895f-7dc8a7c7bf49")
-	)
-	(junction
-		(at 533.4 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6085031-2b19-4753-b291-84592cd69c1d")
 	)
 	(junction
 		(at 322.58 100.965)
@@ -17985,6 +17974,16 @@
 	)
 	(wire
 		(pts
+			(xy 496.57 48.895) (xy 525.78 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15338713-0d69-4827-bc01-2c410bf87c0c")
+	)
+	(wire
+		(pts
 			(xy 461.01 51.435) (xy 468.63 51.435)
 		)
 		(stroke
@@ -18096,6 +18095,16 @@
 	)
 	(wire
 		(pts
+			(xy 495.935 149.86) (xy 527.685 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c3e047a-c431-45ee-93dd-7b0de627a7ee")
+	)
+	(wire
+		(pts
 			(xy 322.58 100.965) (xy 322.58 109.855)
 		)
 		(stroke
@@ -18196,7 +18205,7 @@
 	)
 	(wire
 		(pts
-			(xy 533.4 61.595) (xy 533.4 64.77)
+			(xy 532.13 61.595) (xy 532.13 64.77)
 		)
 		(stroke
 			(width 0)
@@ -19080,7 +19089,7 @@
 	)
 	(wire
 		(pts
-			(xy 533.4 43.815) (xy 533.4 41.91)
+			(xy 532.13 43.815) (xy 532.13 41.91)
 		)
 		(stroke
 			(width 0)
@@ -19120,7 +19129,7 @@
 	)
 	(wire
 		(pts
-			(xy 535.305 142.875) (xy 542.925 142.875)
+			(xy 534.035 142.875) (xy 542.925 142.875)
 		)
 		(stroke
 			(width 0)
@@ -19552,16 +19561,6 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 48.895) (xy 496.57 48.895)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dbc70f0-250b-4f86-848b-6bd7fbbe006e")
-	)
-	(wire
-		(pts
 			(xy 92.71 322.58) (xy 92.71 330.835)
 		)
 		(stroke
@@ -19772,7 +19771,7 @@
 	)
 	(wire
 		(pts
-			(xy 535.305 162.56) (xy 535.305 165.735)
+			(xy 534.035 162.56) (xy 534.035 165.735)
 		)
 		(stroke
 			(width 0)
@@ -19829,16 +19828,6 @@
 			(type default)
 		)
 		(uuid "7c49fa21-bf5c-4332-9d8a-8e949b080f74")
-	)
-	(wire
-		(pts
-			(xy 527.685 149.86) (xy 495.935 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c55fe2b-c1ce-4f8e-885e-a2b33312263c")
 	)
 	(wire
 		(pts
@@ -20294,6 +20283,16 @@
 	)
 	(wire
 		(pts
+			(xy 532.13 64.77) (xy 533.4 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92cf1473-2f9f-4f12-97db-5b6c562e8643")
+	)
+	(wire
+		(pts
 			(xy 149.86 252.095) (xy 149.86 254.635)
 		)
 		(stroke
@@ -20454,7 +20453,7 @@
 	)
 	(wire
 		(pts
-			(xy 535.305 144.78) (xy 535.305 142.875)
+			(xy 534.035 144.78) (xy 534.035 142.875)
 		)
 		(stroke
 			(width 0)
@@ -20984,6 +20983,16 @@
 			(type default)
 		)
 		(uuid "b9215266-ef57-4ee7-a3ba-68b9c97d71d2")
+	)
+	(wire
+		(pts
+			(xy 534.035 165.735) (xy 535.305 165.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b991df67-3e31-48ff-bea4-1d39f0b722b4")
 	)
 	(wire
 		(pts
@@ -21987,7 +21996,7 @@
 	)
 	(wire
 		(pts
-			(xy 533.4 41.91) (xy 541.02 41.91)
+			(xy 532.13 41.91) (xy 541.02 41.91)
 		)
 		(stroke
 			(width 0)
@@ -31608,154 +31617,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:ZX-SH1.0-4PWT")
-		(at 532.765 152.4 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4704f711-9c88-427d-bd1e-92aaa4b84dd1")
-		(property "Reference" "U13"
-			(at 539.115 153.6701 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 532.765 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EasyEDA_Lib:CONN-SMD_4P-P1.00_MEGASTAR_ZX-SH1.0-4PWT"
-			(at 532.765 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/ZX-SH1.0-4PWT/8430315.html"
-			(at 532.765 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Pins Structure:1x4P Pitch:1mm Mounting Type:Surface Mount, Right Angle Reference Series:SH Number of Pins:4P Number of Rows:1 Number of PINs Per Row:4 Row Spacing:- Current Rating:1A Contact Material:Brass Contact Plating:Tin Operating Temperature:-40°C~+8"
-			(at 532.765 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "ZX-SH1.0-4PWT"
-			(at 532.765 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Megastar(兆星)"
-			(at 532.765 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" "C7430446"
-			(at 532.765 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 532.765 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Name" "1x4P 间距:1mm 卧贴 系列:SH"
-			(at 532.765 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0d737075-71ae-4c79-80a9-64fa1db8a6df")
-		)
-		(pin "2"
-			(uuid "48c87512-f90c-4433-8c4b-ec2e35145116")
-		)
-		(pin "4"
-			(uuid "42bbdcde-7c81-4218-b06f-2a00de645899")
-		)
-		(pin "5"
-			(uuid "57c23e26-226a-4be0-99f4-5a024dc0e2b7")
-		)
-		(pin "6"
-			(uuid "0866a66e-7707-4518-a48f-778b66e67336")
-		)
-		(pin "3"
-			(uuid "69919aee-6362-4826-9254-5400688aac76")
-		)
-		(instances
-			(project "MIBoard"
-				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "U13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_4ms_Connector:TestPoint")
 		(at 292.1 323.85 0)
 		(unit 1)
@@ -35719,6 +35580,154 @@
 		)
 	)
 	(symbol
+		(lib_id "EasyEDA_Lib:532610471_C696092")
+		(at 532.765 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "737c42f2-0d1f-4f78-a8db-cda3cab1edeb")
+		(property "Reference" "CN2"
+			(at 535.94 153.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 532.765 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:CONN-SMD_4P-P1.25_53261-0471"
+			(at 532.765 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/532/53261/532610471_sd.pdf?inline\\"
+			(at 532.765 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pins Structure:1x4P Pitch:1.25mm Mounting Type:Surface Mount, Right Angle Reference Series:PicoBlade(MX 1.25) Number of Pins:4P Number of Rows:1 Number of PINs Per Row:4 Row Spacing:- Current Rating:1A Contact Material:Phosphor Bronze Contact Plating:Tin"
+			(at 532.765 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "532610471"
+			(at 532.765 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MOLEX"
+			(at 532.765 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C696092"
+			(at 532.765 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 532.765 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "1x4P 间距:1.25mm 卧贴 系列:PicoBlade(MX 1.25)"
+			(at 532.765 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "a30c49c2-4772-4299-939d-2d12ad0d0e64")
+		)
+		(pin "5"
+			(uuid "d13d7297-7c8c-47ca-82b0-c17c4bf786c9")
+		)
+		(pin "1"
+			(uuid "523ce1ce-bce4-4ebf-b98c-5fef970023eb")
+		)
+		(pin "2"
+			(uuid "a75527e9-7cb6-4d2c-848f-c9b6113e271e")
+		)
+		(pin "6"
+			(uuid "ff3d8305-5083-43a5-930f-ee9095e2bf15")
+		)
+		(pin "3"
+			(uuid "800ea14b-57a2-4dca-9f0f-3bf0c4b96084")
+		)
+		(instances
+			(project "MIBoard"
+				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
+					(reference "CN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EasyEDA_Lib:GSM0630-6R8-M")
 		(at 150.495 323.85 0)
 		(unit 1)
@@ -35897,7 +35906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopOnly"
 			(at 290.195 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -40825,7 +40834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopOnly"
 			(at 314.325 241.935 0)
 			(hide yes)
 			(show_name no)
@@ -43126,7 +43135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopOnly"
 			(at 314.325 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -45655,6 +45664,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 290.195 254.635 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c005488a-945d-4215-8c9e-29cc968f82a5")
+		(property "Reference" "H5"
+			(at 293.37 253.3649 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 293.37 255.9049 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 290.195 254.635 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.195 254.635 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 290.195 254.635 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "MIBoard"
+				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Transistors:NMOS,2N7002")
 		(at 449.58 88.265 0)
 		(unit 1)
@@ -46701,7 +46786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopOnly"
 			(at 290.195 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -47529,154 +47614,6 @@
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA_Lib:ZX-SH1.0-4PWT")
-		(at 530.86 51.435 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d32ee962-0e31-4070-a5ca-44b9de856fe7")
-		(property "Reference" "U12"
-			(at 537.21 52.7051 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 530.86 51.435 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EasyEDA_Lib:CONN-SMD_4P-P1.00_MEGASTAR_ZX-SH1.0-4PWT"
-			(at 530.86 51.435 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/ZX-SH1.0-4PWT/8430315.html"
-			(at 530.86 51.435 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Pins Structure:1x4P Pitch:1mm Mounting Type:Surface Mount, Right Angle Reference Series:SH Number of Pins:4P Number of Rows:1 Number of PINs Per Row:4 Row Spacing:- Current Rating:1A Contact Material:Brass Contact Plating:Tin Operating Temperature:-40°C~+8"
-			(at 530.86 51.435 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "ZX-SH1.0-4PWT"
-			(at 530.86 51.435 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Megastar(兆星)"
-			(at 530.86 51.435 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" "C7430446"
-			(at 530.86 51.435 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 530.86 51.435 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Name" "1x4P 间距:1mm 卧贴 系列:SH"
-			(at 530.86 51.435 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c9d9ecf2-0dae-43a5-8c98-0a9b6ca4d9ae")
-		)
-		(pin "2"
-			(uuid "ea1f0634-e8e6-4518-a077-8e5ccbe1e5e3")
-		)
-		(pin "4"
-			(uuid "5ff58068-4968-42c9-888e-9e7dc45731ab")
-		)
-		(pin "5"
-			(uuid "e0076268-805e-4801-bcc9-9c315e4e9663")
-		)
-		(pin "6"
-			(uuid "a9f626f9-a85c-4985-931c-7efc850921a8")
-		)
-		(pin "3"
-			(uuid "ac0764cd-a4b7-4aa0-87df-9657061b0f75")
-		)
-		(instances
-			(project "MIBoard"
-				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -52041,6 +51978,154 @@
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA_Lib:532610471_C696092")
+		(at 530.86 52.705 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f87f845b-55cd-4ce7-b01d-c79594c90bfe")
+		(property "Reference" "CN1"
+			(at 534.035 52.7049 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 530.86 52.705 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:CONN-SMD_4P-P1.25_53261-0471"
+			(at 530.86 52.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/532/53261/532610471_sd.pdf?inline\\"
+			(at 530.86 52.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pins Structure:1x4P Pitch:1.25mm Mounting Type:Surface Mount, Right Angle Reference Series:PicoBlade(MX 1.25) Number of Pins:4P Number of Rows:1 Number of PINs Per Row:4 Row Spacing:- Current Rating:1A Contact Material:Phosphor Bronze Contact Plating:Tin"
+			(at 530.86 52.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "532610471"
+			(at 530.86 52.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MOLEX"
+			(at 530.86 52.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C696092"
+			(at 530.86 52.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 530.86 52.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "1x4P 间距:1.25mm 卧贴 系列:PicoBlade(MX 1.25)"
+			(at 530.86 52.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "85ca786f-a343-4bb9-a22c-0ec4aeb46349")
+		)
+		(pin "5"
+			(uuid "3b8ec3b4-ff1c-497a-87e3-4c4a16e8703b")
+		)
+		(pin "1"
+			(uuid "abcb159d-6a9e-46f3-9c1c-7e929bcf298e")
+		)
+		(pin "2"
+			(uuid "b26db7bc-8d28-47ec-9999-e7050bdfdcb9")
+		)
+		(pin "6"
+			(uuid "fc192737-705a-4b79-8c80-d868308f64db")
+		)
+		(pin "3"
+			(uuid "31156603-17cf-4c07-ac1e-08e6de74f0c4")
+		)
+		(instances
+			(project "MIBoard"
+				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
+					(reference "CN1")
 					(unit 1)
 				)
 			)
