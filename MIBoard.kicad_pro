@@ -552,7 +552,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.3,
+        "clearance": 0.2,
         "microvia_diameter": 0.4,
         "microvia_drill": 0.1,
         "name": "PWR",

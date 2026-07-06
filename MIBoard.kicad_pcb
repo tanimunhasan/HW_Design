@@ -120,6 +120,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -43748,7 +43749,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "cdb07a93-62eb-4595-9d1d-de7a81a0e6d0")
 		(pts
 			(xy 181.21 68.91) (xy 187.7 68.91)
@@ -43774,7 +43775,7 @@
 		)
 		(gr_text "6.49"
 			(at 184.455 67.81 0)
-			(layer "F.SilkS")
+			(layer "Dwgs.User")
 			(uuid "cdb07a93-62eb-4595-9d1d-de7a81a0e6d0")
 			(effects
 				(font

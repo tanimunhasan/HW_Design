@@ -16546,9 +16546,9 @@
 		)
 		(uuid "15e65d0a-7359-4809-8d98-2a84c17893cb")
 	)
-	(text "G1"
+	(text "G"
 		(exclude_from_sim no)
-		(at 498.475 86.36 0)
+		(at 511.175 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16589,9 +16589,9 @@
 		)
 		(uuid "2398098b-48b2-4d14-9689-37400c1d1033")
 	)
-	(text "S1"
+	(text "S"
 		(exclude_from_sim no)
-		(at 520.7 97.155 0)
+		(at 520.7 94.615 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16669,9 +16669,9 @@
 		)
 		(uuid "55e83489-ce37-444a-81d9-4c0ac708593e")
 	)
-	(text "D1"
+	(text "D"
 		(exclude_from_sim no)
-		(at 520.7 80.645 0)
+		(at 520.7 81.915 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26888,7 +26888,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Diodes:TVS-Uni,SMBJ18A")
-		(at 78.74 332.74 0)
+		(at 78.74 332.74 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26898,7 +26898,7 @@
 		(dnp no)
 		(uuid "19809eab-6a8e-4d89-bf31-aea8d8ccfc30")
 		(property "Reference" "D1"
-			(at 74.93 329.565 0)
+			(at 82.55 335.915 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26909,7 +26909,7 @@
 			)
 		)
 		(property "Value" "SMBJ18A"
-			(at 73.025 335.915 0)
+			(at 78.105 330.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26920,7 +26920,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:D_SMB"
-			(at 76.962 332.74 90)
+			(at 80.518 332.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
