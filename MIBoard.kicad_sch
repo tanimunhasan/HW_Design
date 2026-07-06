@@ -17167,12 +17167,6 @@
 		(uuid "879e8209-c689-4895-9bd0-45a97d559802")
 	)
 	(junction
-		(at 292.1 327.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8881e6d5-8eaa-42c7-8f44-16d74698c7d9")
-	)
-	(junction
 		(at 511.81 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -18840,16 +18834,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 325.12) (xy 74.93 325.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45c1c9f3-d132-4258-9b94-82f2715437ce")
-	)
-	(wire
-		(pts
 			(xy 276.86 325.755) (xy 276.86 327.66)
 		)
 		(stroke
@@ -19201,6 +19185,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 325.12) (xy 69.85 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a410bc7-320a-4189-9e5f-d0ae77ab872d")
+	)
+	(wire
+		(pts
 			(xy 429.895 247.65) (xy 438.15 247.65)
 		)
 		(stroke
@@ -19473,16 +19467,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 327.66) (xy 74.93 327.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a2a32ec-1134-456c-ad40-c24c7007f002")
-	)
-	(wire
-		(pts
 			(xy 440.69 68.58) (xy 429.26 68.58)
 		)
 		(stroke
@@ -19513,7 +19497,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 327.66) (xy 292.1 327.66)
+			(xy 287.02 327.66) (xy 313.69 327.66)
 		)
 		(stroke
 			(width 0)
@@ -21478,6 +21462,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 327.66) (xy 64.135 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3133deb-45d2-48b8-90fd-76eade5745ae")
+	)
+	(wire
+		(pts
 			(xy 241.3 180.975) (xy 241.3 186.055)
 		)
 		(stroke
@@ -21675,16 +21669,6 @@
 			(type default)
 		)
 		(uuid "dda7b0af-819b-48a6-a032-45d80fb9e648")
-	)
-	(wire
-		(pts
-			(xy 292.1 323.85) (xy 292.1 327.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de2dec80-c455-4f00-a420-a2bc9d83eaf2")
 	)
 	(wire
 		(pts
@@ -22045,16 +22029,6 @@
 			(type default)
 		)
 		(uuid "ef7bec04-4cba-4815-8ea9-119e1411e915")
-	)
-	(wire
-		(pts
-			(xy 292.1 327.66) (xy 313.69 327.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f13b0fcb-c392-45db-a8d9-4831f822e45c")
 	)
 	(wire
 		(pts
@@ -22428,7 +22402,7 @@
 		(uuid "4fef899d-bdf3-448e-b325-168949113114")
 	)
 	(label "RS485_A"
-		(at 74.93 325.12 180)
+		(at 64.135 327.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22538,7 +22512,7 @@
 		)
 		(uuid "7579300e-43d7-426c-bb9c-c2cd5a2a944e")
 	)
-	(label "+12V Fan2"
+	(label "+12V_Fan2"
 		(at 477.52 152.4 0)
 		(effects
 			(font
@@ -22598,7 +22572,7 @@
 		)
 		(uuid "9b8a75bc-555a-4f85-b4c5-1e796facff35")
 	)
-	(label "+12V Fan1"
+	(label "+12V_Fan1"
 		(at 477.52 51.435 0)
 		(effects
 			(font
@@ -22730,7 +22704,7 @@
 		(uuid "eccfb84f-9e5f-46a9-9ee8-321a08754cda")
 	)
 	(label "RS485_B"
-		(at 74.93 327.66 180)
+		(at 69.85 325.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -31613,85 +31587,6 @@
 			(project "MIBoard"
 				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
 					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_4ms_Connector:TestPoint")
-		(at 292.1 323.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47e4b89a-548a-409e-a77c-3a30099de8b0")
-		(property "Reference" "TP5"
-			(at 294.64 319.2779 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 294.64 321.8179 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 297.18 323.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 297.18 323.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 292.1 323.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "99d3654e-3b3c-433d-bc58-7274fd78156a")
-		)
-		(instances
-			(project "MIBoard"
-				(path "/794689d0-9b91-4a60-b609-3ed7aaac99b2"
-					(reference "TP5")
 					(unit 1)
 				)
 			)
