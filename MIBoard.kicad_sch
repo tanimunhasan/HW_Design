@@ -16942,12 +16942,6 @@
 		(uuid "66cae83a-c0a7-4a94-9399-a7989881684a")
 	)
 	(junction
-		(at 71.755 322.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6bdafde0-4805-4fc3-a3f1-2b84aae020de")
-	)
-	(junction
 		(at 241.3 165.735)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -17156,6 +17150,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6be148c-930d-4a75-b781-464636f5f4b7")
+	)
+	(junction
+		(at 71.755 322.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8434bf1-b60a-4125-bb2b-8b5dc53a011a")
 	)
 	(junction
 		(at 116.84 337.82)
@@ -19708,7 +19708,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 322.58) (xy 71.755 322.58)
+			(xy 68.58 322.58) (xy 71.755 322.58)
 		)
 		(stroke
 			(width 0)
@@ -20219,7 +20219,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 322.58) (xy 49.53 322.58)
+			(xy 48.26 322.58) (xy 50.8 322.58)
 		)
 		(stroke
 			(width 0)
@@ -21618,16 +21618,6 @@
 			(type default)
 		)
 		(uuid "ff1509ec-8f2e-46c4-950d-932e71bef632")
-	)
-	(wire
-		(pts
-			(xy 517.525 239.395) (xy 524.51 239.395)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff2a35dd-4ca3-4644-b6d2-771f8fe49a5d")
 	)
 	(wire
 		(pts
@@ -23420,7 +23410,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA_Lib:BSMD2920-500-30V")
-		(at 59.69 322.58 0)
+		(at 60.96 322.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23430,7 +23420,7 @@
 		(dnp no)
 		(uuid "05d7320f-c93e-4dfc-a47a-89fa488d5a2b")
 		(property "Reference" "U1"
-			(at 57.785 317.5 0)
+			(at 59.055 317.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23440,7 +23430,7 @@
 			)
 		)
 		(property "Value" "5A 30V"
-			(at 58.42 320.04 0)
+			(at 59.69 320.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23450,7 +23440,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:F2920"
-			(at 59.69 322.58 0)
+			(at 60.96 322.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23461,7 +23451,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/BSMD2920-500-30V/21878920.html"
-			(at 59.69 322.58 0)
+			(at 60.96 322.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23472,7 +23462,7 @@
 			)
 		)
 		(property "Description" "Voltage - Max:30V Current - Max:40A Hold Current:5A Trip Current:10A Power Dissipation:2.5W Resistance - Initial (Ri) (Min):5mΩ Resistance - Post Trip (R1) (Max):31mΩ Time to Trip(Max):5s Operating Temperature:-40°C~+85°C Operating Temperature:-40°C~+85°C Len"
-			(at 59.69 322.58 0)
+			(at 60.96 322.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23483,7 +23473,7 @@
 			)
 		)
 		(property "Manufacturer Part" "BSMD2920-500-30V"
-			(at 59.69 322.58 0)
+			(at 60.96 322.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23494,7 +23484,7 @@
 			)
 		)
 		(property "Manufacturer" "BHFUSE(佰宏)"
-			(at 59.69 322.58 0)
+			(at 60.96 322.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23505,7 +23495,7 @@
 			)
 		)
 		(property "Supplier Part" "C20539728"
-			(at 59.69 322.58 0)
+			(at 60.96 322.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23516,7 +23506,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 59.69 322.58 0)
+			(at 60.96 322.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23527,7 +23517,7 @@
 			)
 		)
 		(property "LCSC Part Name" "5A 30V"
-			(at 58.42 320.675 0)
+			(at 59.69 320.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23538,7 +23528,7 @@
 			)
 		)
 		(property "LCSC" "C20539728"
-			(at 59.69 322.58 0)
+			(at 60.96 322.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
