@@ -17171,7 +17171,7 @@
 	)
 	(text "MSP430FR5043IPMR"
 		(exclude_from_sim no)
-		(at 218.44 34.29 0)
+		(at 190.5 36.83 0)
 		(effects
 			(font
 				(size 5 5)
@@ -17181,7 +17181,7 @@
 		)
 		(uuid "34e3af84-2f01-4dc7-b04e-2f06cb91edb9")
 	)
-	(text "Fan command duty = how much HIGH/open time the fan should see.\nMCU duty = opposite, because your MOSFET pulls the fan PWM line LOW."
+	(text "Fan command duty = how much HIGH/open time the fan should see.\nMCU duty = opposite, because here MOSFET pulls the fan PWM line LOW."
 		(exclude_from_sim no)
 		(at 276.86 271.78 0)
 		(effects
