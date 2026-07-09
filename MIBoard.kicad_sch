@@ -22599,7 +22599,7 @@
 		(cells
 			(table_cell "Desired fan %command"
 				(exclude_from_sim no)
-				(at 276.86 251.46 0)
+				(at 276.225 251.46 0)
 				(size 29.845 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -22616,7 +22616,7 @@
 			)
 			(table_cell "Fan PWM pin state"
 				(exclude_from_sim no)
-				(at 306.705 251.46 0)
+				(at 306.07 251.46 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -22633,7 +22633,7 @@
 			)
 			(table_cell "MCU PWM output"
 				(exclude_from_sim no)
-				(at 330.835 251.46 0)
+				(at 330.2 251.46 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -22650,7 +22650,7 @@
 			)
 			(table_cell "100% fan"
 				(exclude_from_sim no)
-				(at 276.86 254 0)
+				(at 276.225 254 0)
 				(size 29.845 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -22667,7 +22667,7 @@
 			)
 			(table_cell "100% HIGH/open"
 				(exclude_from_sim no)
-				(at 306.705 254 0)
+				(at 306.07 254 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -22684,7 +22684,7 @@
 			)
 			(table_cell "0% HIGH"
 				(exclude_from_sim no)
-				(at 330.835 254 0)
+				(at 330.2 254 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -22701,7 +22701,7 @@
 			)
 			(table_cell "70% fan"
 				(exclude_from_sim no)
-				(at 276.86 256.54 0)
+				(at 276.225 256.54 0)
 				(size 29.845 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -22718,7 +22718,7 @@
 			)
 			(table_cell "70% HIGH/open"
 				(exclude_from_sim no)
-				(at 306.705 256.54 0)
+				(at 306.07 256.54 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -22735,7 +22735,7 @@
 			)
 			(table_cell "30% HIGH"
 				(exclude_from_sim no)
-				(at 330.835 256.54 0)
+				(at 330.2 256.54 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -22752,7 +22752,7 @@
 			)
 			(table_cell "50% fan"
 				(exclude_from_sim no)
-				(at 276.86 259.08 0)
+				(at 276.225 259.08 0)
 				(size 29.845 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -22769,7 +22769,7 @@
 			)
 			(table_cell "50% HIGH/open"
 				(exclude_from_sim no)
-				(at 306.705 259.08 0)
+				(at 306.07 259.08 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -22786,7 +22786,7 @@
 			)
 			(table_cell "50% HIGH"
 				(exclude_from_sim no)
-				(at 330.835 259.08 0)
+				(at 330.2 259.08 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -22803,7 +22803,7 @@
 			)
 			(table_cell "30% fan"
 				(exclude_from_sim no)
-				(at 276.86 261.62 0)
+				(at 276.225 261.62 0)
 				(size 29.845 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -22820,7 +22820,7 @@
 			)
 			(table_cell "30% HIGH/open"
 				(exclude_from_sim no)
-				(at 306.705 261.62 0)
+				(at 306.07 261.62 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -22837,7 +22837,7 @@
 			)
 			(table_cell "70% HIGH"
 				(exclude_from_sim no)
-				(at 330.835 261.62 0)
+				(at 330.2 261.62 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -22854,7 +22854,7 @@
 			)
 			(table_cell "0% fan/stop"
 				(exclude_from_sim no)
-				(at 276.86 264.16 0)
+				(at 276.225 264.16 0)
 				(size 29.845 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -22871,7 +22871,7 @@
 			)
 			(table_cell "0% HIGH, mostly LOW"
 				(exclude_from_sim no)
-				(at 306.705 264.16 0)
+				(at 306.07 264.16 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -22888,7 +22888,7 @@
 			)
 			(table_cell "100% HIGH"
 				(exclude_from_sim no)
-				(at 330.835 264.16 0)
+				(at 330.2 264.16 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
