@@ -23117,6 +23117,16 @@
 		)
 		(uuid "5fe54148-334e-4baa-9852-fcf0844638b9")
 	)
+	(label "SW"
+		(at 133.35 330.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61ab59fb-c0af-4f16-8380-75249930efb4")
+	)
 	(label "FAN2_TACH"
 		(at 94.615 85.725 0)
 		(effects
