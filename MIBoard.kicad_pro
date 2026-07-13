@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.8,
-          "height": 3.8,
-          "width": 3.8
+          "drill": 3.2,
+          "height": 3.6,
+          "width": 3.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -1045,6 +1045,24 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PROD_ID",
+          "name": "PROD_ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1103,7 +1121,7 @@
         "uuid": "794689d0-9b91-4a60-b609-3ed7aaac99b2"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R39,C1-7,C10-13,C24,C30-33,C37-42",
     "variants": []
   },
   "sheets": [
