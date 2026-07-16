@@ -1070,7 +1070,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -1121,7 +1121,7 @@
         "uuid": "794689d0-9b91-4a60-b609-3ed7aaac99b2"
       }
     ],
-    "used_designators": "R39,C1-7,C10-13,C24,C30-33,C37-42",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
